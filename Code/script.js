@@ -7,7 +7,7 @@ const thirdbttnh = document.querySelector('third-bttn:hover');
 const fourthbttn = document.querySelector('#fourth-bttn');
 const fourthbttnh = document.querySelector('#fourth-bttn:hover');
 const fifthbttn = document.querySelector('#fifth-bttn');
-const fifthbttnh = document.querySelector('#fifth-bttn');
+const fifthbttnh = document.querySelector('#fifth-bttn:hover');
 
 firstbttn.addEventListener('click', e => {
 
@@ -60,8 +60,8 @@ fifthbttn.addEventListener('click', e => {
     
 });
 
-fifttbttn.addEventListener('dblclick', e => {
-    fifthtbttn.style.backgroundColor = fifttbttnh;
+fifthbttn.addEventListener('dblclick', e => {
+    fifthbttn.style.backgroundColor = fifthbttnh;
     
 });
 
