@@ -1,9 +1,13 @@
 const firstbttn = document.querySelector('#first-bttn');
 const firstbttnh = document.querySelector('#first-button:hover');
 const secndbttn = document.querySelector('#secnd-bttn');
+const secndbttnh = document.querySelector('#secnd-bttn:hover');
 const thirdbttn = document.querySelector('#third-bttn');
+const thirdbttnh = document.querySelector('third-bttn:hover');
 const fourthbttn = document.querySelector('#fourth-bttn');
+const fourthbttnh = document.querySelector('#fourth-bttn:hover');
 const fifthbttn = document.querySelector('#fifth-bttn');
+const fifthbttnh = document.querySelector('#fifth-bttn');
 
 firstbttn.addEventListener('click', e => {
 
@@ -15,25 +19,6 @@ firstbttn.addEventListener('dblclick', e => {
     
 });
 
-/*firstbttn.addEventListener('mouseEnter', e => {
-
-    
-    firstbttn.style.backgroundColor = 'rgba(236, 232, 232,.6)';
-    firstbttn.style.color = 'blue';
-    
-});
-
-firstbttn.addEventListener('mouseLeave', e => {
-    firstbttn.style.backgroundColor = 'rgba(47, 57, 70,.5)';
-});*/
-
-
-
-
-
-
-
-
 
 
 secndbttn.addEventListener('click', e => {
@@ -41,9 +26,22 @@ secndbttn.addEventListener('click', e => {
     secndbttn.style.backgroundColor = 'hsl(25, 97%, 53%)';
 });
 
+
+secndbttn.addEventListener('dblclick', e => {
+    secndbttn.style.backgroundColor = secndbttnh;
+    
+});
+
+
+
 thirdbttn.addEventListener('click', e => {
 
     thirdbttn.style.backgroundColor = 'hsl(25, 97%, 53%)';
+});
+
+thirdbttn.addEventListener('dblclick', e => {
+    thirdbttn.style.backgroundColor = thirdbttnh;
+    
 });
 
 fourthbttn.addEventListener('click', e => {
@@ -51,9 +49,19 @@ fourthbttn.addEventListener('click', e => {
     fourthbttn.style.backgroundColor = 'hsl(25, 97%, 53%)';
 });
 
+fourthbttn.addEventListener('dblclick', e => {
+    fourthbttn.style.backgroundColor = fourthbttnh;
+    
+});
+
 fifthbttn.addEventListener('click', e => {
 
     fifthbttn.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    
+});
+
+fifttbttn.addEventListener('dblclick', e => {
+    fifthtbttn.style.backgroundColor = fifttbttnh;
     
 });
 
