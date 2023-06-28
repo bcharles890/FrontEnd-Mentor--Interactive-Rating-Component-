@@ -1,4 +1,5 @@
 const firstbttn = document.querySelector('#first-bttn');
+const firstbttnh = document.querySelector('#first-button:hover');
 const secndbttn = document.querySelector('#secnd-bttn');
 const thirdbttn = document.querySelector('#third-bttn');
 const fourthbttn = document.querySelector('#fourth-bttn');
@@ -10,21 +11,21 @@ firstbttn.addEventListener('click', e => {
 });
 
 firstbttn.addEventListener('dblclick', e => {
-    firstbttn.style.backgroundColor = 'rgba(47, 57, 70,.5)';
+    firstbttn.style.backgroundColor = firstbttnh;
     
 });
 
-firstbttn.addEventListener('mouseEnter', e => {
+/*firstbttn.addEventListener('mouseEnter', e => {
 
     
     firstbttn.style.backgroundColor = 'rgba(236, 232, 232,.6)';
-    firstbttn.style.color = 'white';
+    firstbttn.style.color = 'blue';
     
 });
 
 firstbttn.addEventListener('mouseLeave', e => {
     firstbttn.style.backgroundColor = 'rgba(47, 57, 70,.5)';
-});
+});*/
 
 
 

@@ -4,276 +4,259 @@
   font-family: Overpass;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px) {
+  #container {
+    border: solid hsl(213, 19%, 18%) 1px;
+    background-color: hsl(213, 19%, 18%);
+    width: 375px;
+    height: 375px;
+    border-radius: 5%;
+    margin-left: 1%;
+    margin-top: 25%;
+  }
 
+  body {
+    background-color: hsl(216, 12%, 8%);
+  }
 
-    #container {
-        border: solid hsl(213, 19%, 18%) 1px;
-        background-color: hsl(213, 19%, 18%);
-        width: 375px;
-        height: 375px;
-        border-radius: 5%;
-        margin-left: 1%;
-        margin-top: 25%;
-      }
-      
-      body{
-          background-color: hsl(216, 12%, 8%);
-      }
-      
-      #icon {
-        border: solid rgb(47, 57, 70) 1px;
-        border-radius: 50%;
-        background-color: rgb(47, 57, 70);
-        padding: 10px;
-        margin-left: 5%;
-        margin-top: 5%;
-        height: 5%;
-        width: 5%;
-      }
-      
-      #title {
-        color: white;
-        font-family: Overpass;
-        font-weight: 600;
-        font-size: 32px;
-        margin-left: 5%;
-      }
-      
-      #text {
-        color: white;
-        font-weight: 100;
-        text-align: left;
-        font-size: 95%;
-        opacity: .5;
-        margin-left: 5%;
-      }
-      
-      #buttons {
-          display: flex;
-          justify-content: space-between;
-          margin-left: 5%;
-          
-      }
-      
-      .button {
-        
-        border-radius: 50px;
-        padding: 4%;
-        color: whitesmoke;
-        opacity: .5;
-        height: 50px;
-        width: 50px;
-        
-      
-        
-        
-        border: solid rgb(47, 57, 70) 1px;
-        background-color: rgb(47, 57, 70);
-      }
-      
-      #submit{
-          width: 91%;
-          border-radius: 20px;
-          color: white;
-          padding: 8px;
-          background-color: hsl(25, 97%, 53%);
-          border: solid hsl(25, 97%, 53%);
-          margin-top: 10%;
-          margin-left: 5%;
-      }
-    
-} 
+  #icon {
+    border: solid rgb(47, 57, 70) 1px;
+    border-radius: 50%;
+    background-color: rgb(47, 57, 70);
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 5%;
+    width: 5%;
+  }
 
-@media only screen and (min-width: 401px) and (max-width:960px) {
-    
-    #container {
-        border: solid hsl(213, 19%, 18%) 1px;
-        background-color: hsl(213, 19%, 18%);
-        width: 375px;
-        height: 375px;
-        border-radius: 5%;
-        margin-left: 29%;
-        margin-top: 15%;
-      }
-      
-      body{
-          background-color: hsl(216, 12%, 8%);
-      }
-      
-      #icon {
-        border: solid rgb(47, 57, 70) 1px;
-        border-radius: 50%;
-        background-color: rgb(47, 57, 70);
-        padding: 10px;
-        margin-left: 5%;
-        margin-top: 5%;
-        height: 5%;
-        width: 5%;
-      }
-      
-      #title {
-        color: white;
-        font-family: Overpass;
-        font-weight: 600;
-        font-size: 32px;
-        margin-left: 5%;
-      }
-      
-      #text {
-        color: white;
-        font-weight: 100;
-        text-align: left;
-        font-size: 95%;
-        opacity: .5;
-        margin-left: 5%;
-      }
-      
-      #buttons {
-          display: flex;
-          justify-content: space-between;
-          margin-left: 5%;
-          
-      }
-      
-      .button {
-        
-        border-radius: 50px;
-        padding: 4%;
-        color: whitesmoke;
-        opacity: .5;
-        height: 50px;
-        width: 50px;
-        
-      
-        
-        
-        border: solid rgb(47, 57, 70) 1px;
-        background-color: rgb(47, 57, 70);
-      }
-      
-      #submit{
-          width: 91%;
-          border-radius: 20px;
-          color: white;
-          padding: 8px;
-          background-color: hsl(25, 97%, 53%);
-          border: solid hsl(25, 97%, 53%);
-          margin-top: 10%;
-          margin-left: 5%;
-      }
+  #title {
+    color: white;
+    font-family: Overpass;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 5%;
+  }
+
+  #text {
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    font-size: 95%;
+    opacity: 0.5;
+    margin-left: 5%;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+
+  .button {
+    border-radius: 50px;
+    padding: 4%;
+    color: whitesmoke;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+
+    border: solid rgb(47, 57, 70) 1px;
+    background-color: rgb(47, 57, 70);
+  }
+
+  #submit {
+    width: 91%;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    background-color: hsl(25, 97%, 53%);
+    border: solid hsl(25, 97%, 53%);
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  #container {
+    border: solid hsl(213, 19%, 18%) 1px;
+    background-color: hsl(213, 19%, 18%);
+    width: 375px;
+    height: 375px;
+    border-radius: 5%;
+    margin-left: 29%;
+    margin-top: 15%;
+  }
+
+  body {
+    background-color: hsl(216, 12%, 8%);
+  }
+
+  #icon {
+    border: solid rgb(47, 57, 70) 1px;
+    border-radius: 50%;
+    background-color: rgb(47, 57, 70);
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 5%;
+    width: 5%;
+  }
+
+  #title {
+    color: white;
+    font-family: Overpass;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 5%;
+  }
+
+  #text {
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    font-size: 95%;
+    opacity: 0.5;
+    margin-left: 5%;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+
+  .button {
+    border-radius: 50px;
+    padding: 4%;
+    color: whitesmoke;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+
+    border: solid rgb(47, 57, 70) 1px;
+    background-color: rgb(47, 57, 70);
+  }
+
+  #submit {
+    width: 91%;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    background-color: hsl(25, 97%, 53%);
+    border: solid hsl(25, 97%, 53%);
+    margin-top: 10%;
+    margin-left: 5%;
+  }
 }
 
 @media only screen and (min-width: 961px) {
-    #container {
-        border: solid hsl(213, 19%, 18%) 1px;
-        background-color: hsl(213, 19%, 18%);
-        width: 375px;
-        height: 375px;
-        border-radius: 5%;
-        margin-left: 40%;
-        margin-top: 10%;
-      }
-      
-      body{
-          background-color: hsl(216, 12%, 8%);
-      }
-      
-      #icon {
-        border: solid rgb(47, 57, 70) 1px;
-        border-radius: 50%;
-        background-color: rgb(47, 57, 70);
-        padding: 10px;
-        margin-left: 5%;
-        margin-top: 5%;
-        height: 5%;
-        width: 5%;
-      }
-      
-      #title {
-        color: white;
-        font-family: Overpass;
-        font-weight: 600;
-        font-size: 32px;
-        margin-left: 5%;
-      }
-      
-      #text {
-        color: white;
-        font-weight: 100;
-        text-align: left;
-        font-size: 95%;
-        opacity: .5;
-        margin-left: 5%;
-      }
-      
-      #buttons {
-          display: flex;
-          justify-content: space-between;
-          margin-left: 5%;
-          
-      }
+  #container {
+    border: solid hsl(213, 19%, 18%) 1px;
+    background-color: hsl(213, 19%, 18%);
+    width: 375px;
+    height: 375px;
+    border-radius: 5%;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
 
-      #first-bttn:hover {
+  body {
+    background-color: hsl(216, 12%, 8%);
+  }
 
-        background-color: rgba(236, 232, 232,.5);
-        color: rgb(255, 255, 255);
-        
-      }
+  #icon {
+    border: solid rgb(47, 57, 70) 1px;
+    border-radius: 50%;
+    background-color: rgb(47, 57, 70);
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 5%;
+    width: 5%;
+  }
 
+  #title {
+    color: white;
+    font-family: Overpass;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 5%;
+  }
 
-      #secnd-bttn:hover {
+  #text {
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    font-size: 95%;
+    opacity: 0.5;
+    margin-left: 5%;
+  }
 
-        background-color: rgba(236, 232, 232,.5);
-        color: rgb(255, 255, 255);
-      }
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
 
-      #third-bttn:hover {
+  #first-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
 
-        background-color: rgba(236, 232, 232,.5);
-        color: rgb(255, 255, 255);
-      }
+  #secnd-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
 
-      #fourth-bttn:hover {
+  #third-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
 
-        background-color: rgba(236, 232, 232,.5);
-        color: rgb(255, 255, 255);
-      }
+  #fourth-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
 
-      #fifth-bttn:hover {
+  #fifth-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
 
-        background-color: rgba(236, 232, 232,.5);
-        color: rgb(255, 255, 255);
-      }
-      
-      .button {
-        
-        border-radius: 50px;
-        padding: 4%;
-        color: rgb(177, 176, 176);
-        height: 50px;
-        width: 50px;
-        border: solid rgba(47, 57, 70, .5) 1px;
-        background-color: rgba(47, 57, 70,.5);
-      }
-      
-      #submit{
-          width: 91%;
-          border-radius: 20px;
-          color: white;
-          padding: 8px;
-          border: solid hsl(25, 97%, 53%);
-          background-color: hsl(25, 97%, 53%);
-          margin-top: 10%;
-          margin-left: 5%;
-          font-size: 16px;
-          letter-spacing: 2px;
-      }
+  .button {
+    border-radius: 50px;
+    padding: 4%;
+    color: rgb(177, 176, 176);
+    height: 50px;
+    width: 50px;
+    border: solid rgba(47, 57, 70, 0.5) 1px;
+    background-color: rgba(47, 57, 70, 0.5);
+  }
 
-      #submit:hover {
-        color:hsl(25, 97%, 53%);
-        background-color: white;
-        border: solid white 1px;
-      }
-    
+  #submit {
+    width: 91%;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    border: solid hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  #submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    border: solid white 1px;
+    width: 91%;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
 }
