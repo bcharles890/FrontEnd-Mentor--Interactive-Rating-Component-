@@ -12,7 +12,9 @@
 @media only screen and (max-width:400px){
 
     body{
-
+        
+margin-left: 3%;
+margin-top: 35%;
     }
     #container{
         border: solid black 1px;
