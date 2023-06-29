@@ -53,6 +53,31 @@
     margin-left: 5%;
   }
 
+  #first-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #secnd-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #third-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #fourth-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #fifth-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
   .button {
     border-radius: 50px;
     padding: 4%;
@@ -74,6 +99,19 @@
     border: solid hsl(25, 97%, 53%);
     margin-top: 10%;
     margin-left: 5%;
+  }
+
+  #submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    border: solid white 1px;
+    width: 91%;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 }
 
@@ -126,6 +164,31 @@
     margin-left: 5%;
   }
 
+  #first-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #secnd-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #third-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #fourth-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  #fifth-bttn:hover {
+    background-color: rgba(236, 232, 232, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
   .button {
     border-radius: 50px;
     padding: 4%;
@@ -147,6 +210,19 @@
     border: solid hsl(25, 97%, 53%);
     margin-top: 10%;
     margin-left: 5%;
+  }
+
+  #submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    border: solid white 1px;
+    width: 91%;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 }
 
